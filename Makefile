@@ -2,9 +2,14 @@ BIN=node_modules/.bin/
 COGS=$(BIN)cogs
 WATCHY=$(BIN)watchy
 
-all:
-	$(COGS) -C cogs-server
+all: clean init
 	$(MAKE) -j cogs-client cogs-server server
+
+clean:
+	rm -fr build public
+
+init:
+	$(COGS) -C cogs-server
 
 cogs-client:
 	$(COGS) -w client,styles,shared -C cogs-client
