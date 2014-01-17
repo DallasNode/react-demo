@@ -1,0 +1,16 @@
+{
+  "name": "react",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Casey Foster <c@sey.me>",
+  "repository": {},
+  "dependencies": {
+    "cogs": "x",
+    "es6-module-transpiler": "x",
+    "express": "x",
+    "node-sass": "x",
+    "react": "x",
+    "react-tools": "x",
+    "watchy": "x"
+  }
+}

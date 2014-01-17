@@ -1,0 +1,12 @@
+{
+  "options": {
+    "processors.es6.options.compatFix": true
+  },
+  "targets": {
+    "client/**/*.*": "public",
+    "shared/**/*.*": "public",
+    "bower_components/react/react.js": "public",
+    "bower_components/requirejs/require.js": "public",
+    "styles/**/*.*": "public/styles"
+  }
+}
