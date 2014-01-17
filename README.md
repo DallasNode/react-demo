@@ -19,11 +19,10 @@ make
 
 Now open up <http://localhost:8000> in your browser.
 
-[cogs][cogs] will be running a watcher in the
-background and recompile your changes on the fly. So feel free to poke around
-and refresh the page to see you updates.
-[watchy][watchy] keeps an eye on the server files
-so that when they change, the server is restarted accordingly.
+[cogs][cogs] will be running a watcher in the background and recompile your
+changes on the fly, so feel free to poke around and refresh the page to see your
+updates. [watchy][watchy] keeps an eye on the server files so that when they
+change, the server is restarted accordingly.
 
 [react]: https://github.com/facebook/react
 [cogs]: https://github.com/caseywebdev/cogs
