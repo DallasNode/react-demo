@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/../../public'));
 var props = {bornAt: Date.now()};
 
 app.get('/', function (req, res) {
-  React.renderComponentToString(Layout(props), res.send.bind(res));
+  res.send(React.renderComponentToString(Layout(props)));
 });
 
 var server = app.listen(8000);
